@@ -1,5 +1,5 @@
 # Ignore the .env file
-.env
+
 
 # Ignore the venv-django folder
 mi_entorno/
