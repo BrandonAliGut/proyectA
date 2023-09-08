@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: primerProducto01
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn primerProducto01.wsgi:application"
+    
